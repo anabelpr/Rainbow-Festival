@@ -446,7 +446,7 @@ footer {
 	}
 
 	body {
-		background-image: url(MEDIA/fondo_movil.png);
+		background-image: url(css/MEDIA/fondo_movil.png);
 		background-repeat:no-repeat ;
 		background-position: center;
 		background-size: cover;
