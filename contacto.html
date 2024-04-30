@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Anabel Perez">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/stylecontacto.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="icon" href="media/favicon.png" type="favicon">
+	<title>Rainbow Festival</title>
+</head>
+<body>
+
+<!-- CABECERA PC -->
+<header>
+<div id="logotip">
+	<a href="index.html"><img src="media/logo1.png" alt="Logotipo Rainbow Festival"></a>
+</div>
+
+<nav>
+	<ul id="menu">
+		<li class="linksmenu"><a href="index.html">Entradas</a></li>
+		<li class="linksmenu"><a href="artistas.html">Artistas</a></li>
+		<li class="linksmenu"><a href="#">Zonas</a></li>
+		<li class="linksmenu"><a href="contacto.html">Contacto</a></li>
+	</ul>
+</nav>
+
+<!-- CABECERA PC FINAL-->
+
+<!-- CABECERA RESPONSIVE -->
+<nav class="menuhamburguesa">
+
+<div id="logomovil">
+  <a href="index.html"><img src="media/logo2.png" alt="Logotipo Rainbow Festival"></a>
+</div>
+
+<label class="icono_hamburguesa" for="check_hamburguesa">
+   	<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+   	  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+   	</svg>
+</label>
+
+<input class="check_hamburguesa" type="checkbox" name="check_hamburguesa" id="check_hamburguesa">
+
+<ul class="caja_linksmenu">
+	<li class="linksmenu_hamb1"><a href="index.html">Entradas</a></li>
+	<li class="linksmenu_hamb2"><a href="artistas.html">Artistas</a></li>
+	<li class="linksmenu_hamb1"><a href="#">Zonas</a></li>
+	<li class="linksmenu_hamb2"><a href="contacto.html">Contacto</a></li>
+</ul>
+</nav>
+<!-- CABECERA RESPONSIVE -->
+
+</header>
+
+<!-- FINAL CABECERA -->
+
+<!-- FONDO -->
+<div id="contenedorfondo">
+	<img src="media/fondo_contacto.png" alt="fondo">
+</div>
+
+<div id="fondomovil">
+	<img src="media/fondo_formas_movil.png" alt="fondo">
+</div>
+<!-- FINAL FONDO	 -->
+
+<!-- INFO SUPERIOR -->
+<div id="titulo1">
+<h1>Contacto</h1>
+</div>
+
+<div id="contenedor_info">
+	<div id="info_superior">
+		<h2>Queremos escucharte. </h2>
+		<h3>Si tienes alguna pregunta, sugerencia o simplemente quieres decir hola, ¡no dudes en ponerte en contacto con nosotros!</h3>
+		<p>Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+	</div>
+</div>
+
+<!-- FINAL INFO SUPERIOR -->
+
+
+<!-- FORMULARIO -->
+<div class="contacto">
+	<div class="formulario">
+		<form>
+			<div id="cajaforumlario">
+				<ul id="formizquierda">
+					<li>
+						<label for="name">Nombre</label>
+						<input type="text" id="name" name="user_name" >
+					</li>
+					<li>
+						<label for="last_name">Apellido</label>
+						<input type="text" id="last_name" name="user_name">
+					</li>
+				</ul>
+				<ul	id="formderecha">
+					<li>
+						<label for="mail">E-mail</label>
+						<input type="email" id="mail" name="user_mail">
+					</li>
+					<li>
+						<label for="phone">Teléfono</label>
+						<input type="tel" id="phone" name="user_tel">
+					</li>
+				</ul>
+			</div>
+			<ul>
+				<li>
+					<label for="msg">Mensaje</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</li>
+				<li class="boton">
+					<button type="submit">
+						Enviar
+					</button>
+				</li>
+			</ul>
+		</form>	
+	</div>
+</div>
+
+<!-- FINAL FORMULARIO -->
+
+
+<!-- DATOS CONTACTO + MAPA -->
+
+<div id="titulo2">
+	<h3>Si prefieres comunicarte de otra manera, aquí tienes nuestras opciones de contacto directo:</h3>
+</div>
+
+<div id="contenedor_datos_contacto">
+	<div id="correo">
+		<img src="media/mail.png" alt="mail">
+		<p>info@rainbowfestival.com</p>
+	</div>
+	<div id="icon_phone">
+		<img src="media/phone.png" alt="phone">
+		<p>+34 623 446 729</p>
+	</div>
+	<div id="ubi">
+		<img src="media/ubi.png" alt="ubi">
+		<p>Calle del Arco Iris Nº42<br>
+		08902 Barcelona, España</p>
+	</div>
+</div>
+
+<div id="direccion">
+	<h2>Recinto del festival</h2>
+	<h3>PARC DEL FÒRUM</h3>
+	<p>Calle de la Pau, 12 <br>
+	08930 Sant Adrià de Besòs, Barcelona</p>
+</div>
+
+<div id="mapa">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5179.866530256693!2d2.2172725110300107!3d41.41130651689575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3570b2f21c5%3A0xe64ccf62dc44a7ed!2sParque%20del%20Forum!5e0!3m2!1ses!2ses!4v1713462387409!5m2!1ses!2ses" width="1020" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- FINAL DATOS CONTACTO + MAPA -->
+
+
+<!-- FOOTER -->
+<footer>
+	<hr>
+
+	<div id="partearriba">
+		<div id="logofooter">
+			<a href="index.html"><img src="media/logo3.png" alt="Logotipo Rainbow Festival"></a>
+		</div>
+
+		<div id="idiomas">
+			<ul>
+				<li id="esbold"><a href="#">ES</a></li>
+				<li><a href="#">CA</a></li>
+				<li><a href="#">EN</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div id="infofooter_caja">
+		<div class="infofooter">
+			<ul>
+				<li><a href="#">ENTRADAS</a></li>
+				<li><a href="artistas.html">ARTISTAS</a></li>
+				<li><a href="#">ZONAS DE DESCANSO</a></li>
+				<li><a href="#">MAPA</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</div>
+
+		<div class="infofooter">
+			<ul>
+				<li><a href="#">PREGUNTAS FRECUENTES</a></li>
+				<li><a href="#">CONDICIONES GENERALES</a></li>
+				<li><a href="#">AVISO LEGAL</a></li>
+				<li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+				<li><a href="#">COOKIES</a></li>
+			</ul>
+		</div>
+	</div>
+	    <div id="redes">
+	    	<ul>
+	    		<li><a href="#"><img src="media/facebook.png" alt=""></a></li>
+	    		<li><a href="#"><img src="media/x.png" alt=""></a></li>
+	    		<li><a href="#"><img src="media/instagram.png" alt=""></a></li>
+	    		<li><a href="#"><img src="media/youtube.png" alt=""></a></li>
+	    		<li><a href="#"><img src="media/tiktok.png" alt=""></a></li>
+	    	</ul>
+	    </div>
+</footer>
+
+
+
+
+<!-- FINAL FOOTER -->
+
+
+
+</body>
+</html>
